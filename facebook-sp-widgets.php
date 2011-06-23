@@ -38,4 +38,17 @@ function cd_fbsp_register_script()
 	wp_register_script( 'xfbml', 'http://connect.facebook.net/en_US/all.js#xfbml=1', array(), NULL, true );	
 }
 
+/**
+* IE doesn't render facebook XFBML unless it finds a certain attribute on the <head>
+* tag. This takes care of that.
+*/
+add_filter( 'language_attributes', 'cd_fbspw_ie_fix', 99 );
+function cd_fbspw_ie_fix( $atts )
+{
+	// if the string already has what we need, bail
+	if( preg_match( '/xmlns:fb="(.*)"/', $atts ) ) return $atts;
+	$atts .= ' xmlns:fb="http://www.facebook.com/2008/fbml"';
+	return $atts;
+}
+
 ?>
