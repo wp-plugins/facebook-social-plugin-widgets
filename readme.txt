@@ -3,7 +3,7 @@ Contributors: chrisguitarguy
 Donate link: http://www.christopherguitar.net/
 Tags: facebook like box, facebook recommendations, facebook activity feed, facebook, widget, widgets
 Requires at least: 3.1.3
-Tested up to: 3.1.3
+Tested up to: 3.2
 Stable tag: 1.1.1
 
 Facebook Social Plugin Widgets adds 3 of the Facebook social plugins to wordpress as widgets: the Like Box, Recommendations, & the Activity Feed.
