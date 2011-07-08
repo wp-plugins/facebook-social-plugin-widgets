@@ -4,7 +4,7 @@ Donate link: http://www.christopherguitar.net/
 Tags: facebook like box, facebook recommendations, facebook activity feed, facebook, widget, widgets
 Requires at least: 3.1.3
 Tested up to: 3.1.3
-Stable tag: 1.1
+Stable tag: 1.1.1
 
 Facebook Social Plugin Widgets adds 3 of the Facebook social plugins to wordpress as widgets: the Like Box, Recommendations, & the Activity Feed.
 
@@ -37,7 +37,7 @@ Border color can be a color name (like "red" or "blue") or a hex color code (lik
 
 = Why don't my widgets work in Internet Explorer? =
 
-IE does a funny thing.  It requires the `<head>` tag to have a special attribute: `xmlns:fb="http://www.facebook.com/2008/fbml"`. FBSPW adds this via a filter on [language attributes](http://codex.wordpress.org/Function_Reference/language_attributes).  You much have this in your theme's `header.php` file to make this work:
+IE does a funny thing.  It requires the `<head>` tag to have a special attribute: `xmlns:fb="http://www.facebook.com/2008/fbml"`. FBSPW adds this via a filter on [language attributes](http://codex.wordpress.org/Function_Reference/language_attributes).  You must have this in your theme's `header.php` file to make this work:
 
 `<html <?php language_attributes(); ?>>`
 

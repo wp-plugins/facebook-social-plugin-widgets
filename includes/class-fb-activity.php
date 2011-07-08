@@ -124,7 +124,7 @@ if( !class_exists( 'CD_FBSP_Activity_Widget' ) )
 			{
 				echo $before_title . $title . $after_title;
 			}
-			echo '<fb:activity' . $url . $width . $border . $color . $font . $header . $recommendations . '></fb:activity>';
+			echo '<fb:activity' . $url . $width . $height . $border . $color . $font . $header . $recommendations . '></fb:activity>';
 			echo $after_widget;
 			
 		}

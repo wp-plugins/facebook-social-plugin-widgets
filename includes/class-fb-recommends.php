@@ -117,7 +117,7 @@ if( !class_exists( 'CD_FBSP_Recommends_Widget' ) )
 			{
 				echo $before_title . $title . $after_title;
 			}
-			echo '<fb:recommendations' . $url . $width . $border . $color . $font . $header . '></fb:recommendations>';
+			echo '<fb:recommendations' . $url . $width . $height . $border . $color . $font . $header . '></fb:recommendations>';
 			echo $after_widget;
 			
 		}
