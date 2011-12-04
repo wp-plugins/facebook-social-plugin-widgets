@@ -4,7 +4,7 @@ Donate link: http://www.christopherguitar.net/
 Tags: facebook like box, facebook recommendations, facebook activity feed, facebook, widget, widgets
 Requires at least: 3.1.3
 Tested up to: 3.3
-Stable tag: 1.1.2
+Stable tag: 1.2
 
 Facebook Social Plugin Widgets adds 3 of the Facebook social plugins to WordPress as widgets: the Like Box, Recommendations, & the Activity Feed.
 
@@ -56,6 +56,12 @@ IE does a funny thing.  It requires the `<head>` tag to have a special attribute
 = 1.1 =
 * Adds an additional filter to lanaguage attributes to render the xmlns:fb="..." <head> attributes (required for IE support)
 
+= 1.2 = 
+* Support for height in the like widget
+
 == Upgrade Notice ==
 = 1.1 =
 * Adds support for IE.
+
+= 1.2 =
+* Upgrade to add height control to the like box widget
